@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.one{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 106, 0, 0.907),orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one h1{
+    font-size: 25vw;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+
+.fanta{
+    position: absolute;
+    width: 30%;
+    z-index: 2;
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+}
+
+.orangehalf{
+    width: 17%;
+    position: absolute;
+    z-index: 1;
+    left: 37%;
+    top:10%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+}
+
+.orange{
+   width: 18%;
+   position: absolute;
+   z-index: 3;
+   left: 49%;
+   top: 45%;
+   transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+}
+
+.leaf1{
+    position: absolute;
+    width: 10%;
+    left: 9%;
+    top: 18%;
+    transform: rotate(100deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+    
+}
+
+.leaf2{
+    position: absolute;
+    width: 10%;
+    top: 70%;
+    right: 10%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+}
+
+
+.leaf3{
+    position: absolute;
+    width: 20%;
+    transform:rotateY(180deg);
+    right: 0;
+    top: 0;
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+}
+
+
+.two{
+    height: 100vh;
+    background-image: linear-gradient(rgb(100, 14, 14),rgb(112, 26, 26));
+    display: flex;
+    width: 100%;
+    
+}
+
+.right,.left{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.left svg{
+    margin-top: 50%;
+    width: 80%;
+    transform: rotateX(60deg);
+}
+
+.right h1{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    font-size: 5vw;
+    color: white;
+}
+
+.right p{
+    margin-top: 3%;
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    font-size: 1vw;
+    color: white;
+}
+
+
+.three{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 106, 0, 0.907),orange);
+    gap: 50px;
+
+}
+
+.box{
+    margin-top: 10%;
+    height: 70vh;
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 4%;
+}
+
+.box:nth-child(1){
+    background-color: #023e8a;
+}
+
+.box:nth-child(2){
+    background-color: #ffbf69;
+}
+
+
+.box:nth-child(3){
+    background-color: #d90429;
+}
+
+.box h1{
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    margin-top: 90%;
+}
+
+.box button{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 102, 0, 0.933);
+    color: white;
+   
+}
+
+.pepsi{
+    position: absolute;
+    width:25%;
+    top: 235%;
+    left: 5%;
+    transform: rotate(-90deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+   
+}
+
+.cc{
+    position: absolute;
+    width: 30%;
+    /* top: 212%; */
+    transform: rotate(90deg);
+    top: 235%;
+    right: 0%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+}
+
+.lemon1{
+    position: absolute;
+    top: 200%;
+    width: 20%;
+    left: 0%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+   
+}
+
+.lemon2{
+    position: absolute;
+    top: 200%;
+    width: 20%;
+    right: 0%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1),0.5s;
+   
+}
+
+
+
